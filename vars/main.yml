@@ -1,0 +1,4 @@
+---
+# defaults file for GestionGlassesRole
+administrator: Allan & Brice
+ansible_user : ubuntu
