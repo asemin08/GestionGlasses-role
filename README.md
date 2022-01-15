@@ -1,41 +1,17 @@
-Role Name
+GestionGlasses-role
 =========
 
-A brief description of the role goes here.
+## Projet
 
-Requirements
-------------
+Application qui permet à un opticien de gérer son stock de lunettes.
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+Ce projet à été réalisé dans le cadre d'une formation à l'ENSUP. Cette formation avait pour objectif la découverte de Spring et Spring Framework.
 
-Role Variables
---------------
+Ce projet a pour but de contenir les différentes actions que doit réaliser Ansible.
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+Ce projet va nous permettre de récupérer le code source et lancer le conteneur de la base de données et ensuite lancer le reste des conteneurs.
 
-Dependencies
-------------
-
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
-
-Example Playbook
-----------------
-
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
-
-License
--------
-
-BSD
-
-Author Information
-------------------
-
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+Ce projet est utilisé par le playgroud Ansible.
 
 ---
 ## Liste des projets
