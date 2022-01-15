@@ -14,6 +14,11 @@ Ce projet va nous permettre de récupérer le code source et lancer le conteneur
 Ce projet est utilisé par le playgroud Ansible.
 
 ---
+## Lien vers le galaxy du rôle pour plus d'informations
+
+[role](https://galaxy.ansible.com/asemin08/gestionglasses_role)
+
+---
 ## Liste des projets
 
 Nom du projet | Description | Lien
