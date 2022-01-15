@@ -1,6 +1,11 @@
 ---
-# tasks file for GestionGlassesRole
-- name: Download & install docker script
-  template:
-    src: "docker_install.sh.j2"
-    dest: "/home/{{ ansible_user }}/docker_install.sh"
+- name: "Download data from git repo"
+  git:
+    repo: 'https://github.com/brikema/GestionGlasses.git'
+    dest: /home/{{ ansible_user }}/GestionGlasses
+
+- name: "docker-compose up database"
+  command: "docker-compose -f /home/{{ ansible_user }}/GestionGlasses/docker-compose.yml up -d db"
+
+- name: "docker-compose up for phpmyadmin and springboot app"
+  command: "docker-compose -f /home/{{ ansible_user }}/GestionGlasses/docker-compose.yml up -d"
