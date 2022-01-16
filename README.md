@@ -14,6 +14,13 @@ Ce projet va nous permettre de récupérer le code source et lancer le conteneur
 Ce projet est utilisé par le playgroud Ansible.
 
 ---
+
+## Lien vers le github pour le déploiement sur AWS de l'application
+
+[Projet avec déploiement sur AWS](https://github.com/asemin08/GestionGlasses-terraform)
+
+---
+
 ## Lien vers le galaxy du rôle pour plus d'informations
 
 [role](https://galaxy.ansible.com/asemin08/gestionglasses_role)
